@@ -4,7 +4,7 @@ A IOS View Controller for displaying a rotating  music album picture.
 
 ## Screenshot
 
-![screenshot](./screenshot/screenshot.png)
+![screenshot](/screenshot/screenshot.png)
 
 ##How to Use
 
