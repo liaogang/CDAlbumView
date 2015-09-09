@@ -17,3 +17,11 @@ A IOS View Controller for displaying a rotating  music album picture.
 3. Add to your view  
 `[self.albumViewController1 addToView:self.placeHolder1];`  
     
+## Installation with CocoaPods
+
+CocoaPods is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like AFNetworking in your projects. See the "Getting Started" guide for more information.    
+Podfile
+
+platform :ios, '6.0'  
+pod "CDAlbumView", "~> 1.0.2"  
+

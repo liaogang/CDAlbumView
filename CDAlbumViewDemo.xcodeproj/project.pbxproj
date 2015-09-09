@@ -18,12 +18,9 @@
 		1EFB93A51B9FC81F0072D5CC /* CDAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFB93A21B9FC81F0072D5CC /* CDAlbumViewController.m */; };
 		1EFB93A71B9FCA740072D5CC /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EFB93A61B9FCA740072D5CC /* b.jpg */; };
 		1EFB93AF1B9FD02D0072D5CC /* cd_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFB93A81B9FD02D0072D5CC /* cd_bg.png */; };
-		1EFB93B01B9FD02D0072D5CC /* cd_bg~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFB93A91B9FD02D0072D5CC /* cd_bg~iphone.png */; };
 		1EFB93B11B9FD02D0072D5CC /* cd_icon_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFB93AA1B9FD02D0072D5CC /* cd_icon_r.png */; };
 		1EFB93B21B9FD02D0072D5CC /* cd_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFB93AB1B9FD02D0072D5CC /* cd_icon.png */; };
-		1EFB93B31B9FD02D0072D5CC /* cd_icon~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFB93AC1B9FD02D0072D5CC /* cd_icon~iphone.png */; };
 		1EFB93B41B9FD02D0072D5CC /* cd_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFB93AD1B9FD02D0072D5CC /* cd_mask.png */; };
-		1EFB93B51B9FD02D0072D5CC /* cd_mask~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFB93AE1B9FD02D0072D5CC /* cd_mask~iphone.png */; };
 		4F3DE6FC395864B7C2A9B74F /* libPods-CDAlbumViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C297AF0C877CF06224F3ECDC /* libPods-CDAlbumViewDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -56,12 +53,9 @@
 		1EFB93A21B9FC81F0072D5CC /* CDAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAlbumViewController.m; sourceTree = "<group>"; };
 		1EFB93A61B9FCA740072D5CC /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
 		1EFB93A81B9FD02D0072D5CC /* cd_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cd_bg.png; sourceTree = "<group>"; };
-		1EFB93A91B9FD02D0072D5CC /* cd_bg~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cd_bg~iphone.png"; sourceTree = "<group>"; };
 		1EFB93AA1B9FD02D0072D5CC /* cd_icon_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cd_icon_r.png; sourceTree = "<group>"; };
 		1EFB93AB1B9FD02D0072D5CC /* cd_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cd_icon.png; sourceTree = "<group>"; };
-		1EFB93AC1B9FD02D0072D5CC /* cd_icon~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cd_icon~iphone.png"; sourceTree = "<group>"; };
 		1EFB93AD1B9FD02D0072D5CC /* cd_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cd_mask.png; sourceTree = "<group>"; };
-		1EFB93AE1B9FD02D0072D5CC /* cd_mask~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cd_mask~iphone.png"; sourceTree = "<group>"; };
 		2A3D89D6DE5ECF5ABE0D068C /* Pods-CDAlbumViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDAlbumViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDAlbumViewDemo/Pods-CDAlbumViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C297AF0C877CF06224F3ECDC /* libPods-CDAlbumViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CDAlbumViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F810537D8068AB28FC20F5BF /* Pods-CDAlbumViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDAlbumViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDAlbumViewDemo/Pods-CDAlbumViewDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,12 +158,9 @@
 				1EFB93A11B9FC81F0072D5CC /* CDAlbumViewController.h */,
 				1EFB93A21B9FC81F0072D5CC /* CDAlbumViewController.m */,
 				1EFB93A81B9FD02D0072D5CC /* cd_bg.png */,
-				1EFB93A91B9FD02D0072D5CC /* cd_bg~iphone.png */,
 				1EFB93AA1B9FD02D0072D5CC /* cd_icon_r.png */,
 				1EFB93AB1B9FD02D0072D5CC /* cd_icon.png */,
-				1EFB93AC1B9FD02D0072D5CC /* cd_icon~iphone.png */,
 				1EFB93AD1B9FD02D0072D5CC /* cd_mask.png */,
-				1EFB93AE1B9FD02D0072D5CC /* cd_mask~iphone.png */,
 			);
 			path = CDAlbumView;
 			sourceTree = "<group>";
@@ -265,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EFB93B51B9FD02D0072D5CC /* cd_mask~iphone.png in Resources */,
 				1EFB93B11B9FD02D0072D5CC /* cd_icon_r.png in Resources */,
 				1EFB93841B9FC7ED0072D5CC /* Main.storyboard in Resources */,
 				1EFB93891B9FC7ED0072D5CC /* LaunchScreen.xib in Resources */,
@@ -273,10 +263,8 @@
 				1EFB93B41B9FD02D0072D5CC /* cd_mask.png in Resources */,
 				1EFB93AF1B9FD02D0072D5CC /* cd_bg.png in Resources */,
 				1EFB93B21B9FD02D0072D5CC /* cd_icon.png in Resources */,
-				1EFB93B01B9FD02D0072D5CC /* cd_bg~iphone.png in Resources */,
 				1EFB93A41B9FC81F0072D5CC /* CDAlbum.storyboard in Resources */,
 				1EFB93861B9FC7ED0072D5CC /* Images.xcassets in Resources */,
-				1EFB93B31B9FD02D0072D5CC /* cd_icon~iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
