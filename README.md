@@ -19,7 +19,8 @@ pod "CDAlbumView", "~> 1.0.2"
 2. Set a album url  
 `[self.albumViewController1 setAlbumImageUrl:[[NSBundle mainBundle] URLForResource:@"b" withExtension:@"jpg"]];`  
 ![example](./screenshot/e.jpg)
-3. Add to your view  
+
+3. Add to your view and let starting rotation.  
 `[self.albumViewController1 addToView:self.placeHolder1];`  
 
 ## Screenshot
