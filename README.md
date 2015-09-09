@@ -8,7 +8,7 @@ CocoaPods is a dependency manager for Objective-C, which automates and simplifie
 Podfile
 
 platform :ios, '6.0'  
-pod "CDAlbumView", "~> 1.0.2"  
+pod "CDAlbumView"
 
 
 ##How to Use

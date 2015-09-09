@@ -21,6 +21,7 @@
 		1EFB93B11B9FD02D0072D5CC /* cd_icon_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFB93AA1B9FD02D0072D5CC /* cd_icon_r.png */; };
 		1EFB93B21B9FD02D0072D5CC /* cd_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFB93AB1B9FD02D0072D5CC /* cd_icon.png */; };
 		1EFB93B41B9FD02D0072D5CC /* cd_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFB93AD1B9FD02D0072D5CC /* cd_mask.png */; };
+		1EFB942C1BA014EE0072D5CC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1EFB942B1BA014EE0072D5CC /* README.md */; };
 		4F3DE6FC395864B7C2A9B74F /* libPods-CDAlbumViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C297AF0C877CF06224F3ECDC /* libPods-CDAlbumViewDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		1EFB93AA1B9FD02D0072D5CC /* cd_icon_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cd_icon_r.png; sourceTree = "<group>"; };
 		1EFB93AB1B9FD02D0072D5CC /* cd_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cd_icon.png; sourceTree = "<group>"; };
 		1EFB93AD1B9FD02D0072D5CC /* cd_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cd_mask.png; sourceTree = "<group>"; };
+		1EFB942B1BA014EE0072D5CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2A3D89D6DE5ECF5ABE0D068C /* Pods-CDAlbumViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDAlbumViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDAlbumViewDemo/Pods-CDAlbumViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C297AF0C877CF06224F3ECDC /* libPods-CDAlbumViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CDAlbumViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F810537D8068AB28FC20F5BF /* Pods-CDAlbumViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDAlbumViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDAlbumViewDemo/Pods-CDAlbumViewDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		1EFB936C1B9FC7ED0072D5CC = {
 			isa = PBXGroup;
 			children = (
+				1EFB942B1BA014EE0072D5CC /* README.md */,
 				1EFB939E1B9FC81F0072D5CC /* CDAlbumView */,
 				1EFB93771B9FC7ED0072D5CC /* CDAlbumViewDemo */,
 				1EFB93911B9FC7ED0072D5CC /* CDAlbumViewDemoTests */,
@@ -317,6 +320,7 @@
 			files = (
 				1EFB93811B9FC7ED0072D5CC /* ViewController.m in Sources */,
 				1EFB93A51B9FC81F0072D5CC /* CDAlbumViewController.m in Sources */,
+				1EFB942C1BA014EE0072D5CC /* README.md in Sources */,
 				1EFB937E1B9FC7ED0072D5CC /* AppDelegate.m in Sources */,
 				1EFB937B1B9FC7ED0072D5CC /* main.m in Sources */,
 			);
