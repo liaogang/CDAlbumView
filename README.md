@@ -1,10 +1,8 @@
-CDAlbumView
+#CDAlbumView
 
-A IOS View Controller for displaying a rotating  music album picture.
+A IOS View Controller for displaying a rotating music album picture.
 
-## Screenshot
 
-![screenshot](/screenshot/screenshot.png)
 
 ##How to Use
 
@@ -13,9 +11,15 @@ A IOS View Controller for displaying a rotating  music album picture.
 
 2. Set a album url  
 `[self.albumViewController1 setAlbumImageUrl:[[NSBundle mainBundle] URLForResource:@"b" withExtension:@"jpg"]];`  
-
+![example](./screenshot/e.jpg)
 3. Add to your view  
 `[self.albumViewController1 addToView:self.placeHolder1];`  
+##
+## Screenshot
+
+![screenshot](./screenshot/screenshot2.png)
+
+![screenshot](./screenshot/screenshot.png)
     
 ## Installation with CocoaPods
 
