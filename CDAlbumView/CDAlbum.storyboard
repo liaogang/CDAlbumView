@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D130a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="g9F-GC-c3o">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Album View Controller-->
+        <scene sceneID="APc-DA-ilH">
+            <objects>
+                <viewController id="g9F-GC-c3o" customClass="CDAlbumViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hTh-4F-zKo"/>
+                        <viewControllerLayoutGuide type="bottom" id="nC3-Wr-Wop"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hR1-mY-gXo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cd_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Htr-yI-R4w">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cd_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="yaj-Bm-h76">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Glg-o4-z3Q">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nC3-Wr-Wop" firstAttribute="top" secondItem="Htr-yI-R4w" secondAttribute="bottom" id="5Ne-ce-8dq"/>
+                            <constraint firstItem="Htr-yI-R4w" firstAttribute="leading" secondItem="hR1-mY-gXo" secondAttribute="leading" id="GFJ-CI-Dba"/>
+                            <constraint firstItem="nC3-Wr-Wop" firstAttribute="top" secondItem="yaj-Bm-h76" secondAttribute="bottom" id="OwB-VS-1YS"/>
+                            <constraint firstItem="Glg-o4-z3Q" firstAttribute="leading" secondItem="hR1-mY-gXo" secondAttribute="leading" id="a5V-Bx-K3g"/>
+                            <constraint firstAttribute="trailing" secondItem="yaj-Bm-h76" secondAttribute="trailing" id="b1Y-9M-rZZ"/>
+                            <constraint firstItem="Glg-o4-z3Q" firstAttribute="top" secondItem="hR1-mY-gXo" secondAttribute="top" id="hAP-pw-SGP"/>
+                            <constraint firstItem="yaj-Bm-h76" firstAttribute="leading" secondItem="hR1-mY-gXo" secondAttribute="leading" id="lqs-q6-PL2"/>
+                            <constraint firstAttribute="trailing" secondItem="Glg-o4-z3Q" secondAttribute="trailing" id="m51-HM-1Eu"/>
+                            <constraint firstAttribute="trailing" secondItem="Htr-yI-R4w" secondAttribute="trailing" id="ss0-Wq-lJP"/>
+                            <constraint firstItem="yaj-Bm-h76" firstAttribute="top" secondItem="hR1-mY-gXo" secondAttribute="top" id="ta6-dM-hwL"/>
+                            <constraint firstItem="Htr-yI-R4w" firstAttribute="top" secondItem="hR1-mY-gXo" secondAttribute="top" id="ujQ-Ya-xRE"/>
+                            <constraint firstItem="nC3-Wr-Wop" firstAttribute="top" secondItem="Glg-o4-z3Q" secondAttribute="bottom" id="ujY-BV-EeD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageAlbum" destination="Glg-o4-z3Q" id="gw3-ui-N9P"/>
+                        <outlet property="imageCDBackgound" destination="Htr-yI-R4w" id="IlV-8j-trL"/>
+                        <outlet property="imageCDFront" destination="yaj-Bm-h76" id="GBH-dj-TZh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yKT-4f-eSY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-599" y="1726"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cd_bg.png" width="90" height="90"/>
+        <image name="cd_icon.png" width="90" height="90"/>
+    </resources>
+</document>
