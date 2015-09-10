@@ -1,5 +1,9 @@
 #CDAlbumView
 
+[![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/CDAlbumView/badge.png)](http://cocoadocs.org/docsets/CDAlbumView)
+[![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/CDAlbumView/badge.svg)](http://cocoadocs.org/docsets/CDAlbumView)
+
+
 A IOS View Controller for displaying a rotating music album picture.
 
 ## Installation with CocoaPods
